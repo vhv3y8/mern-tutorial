@@ -62,3 +62,6 @@ app.listen(process.env.PORT, () => {
 
 이렇게 써주면 똑같이 동작함
 
+## #3
+
+router, middleware나 reqest, response가 어떤 원리인지 같은 express 개념들은 따로 공부해야할듯

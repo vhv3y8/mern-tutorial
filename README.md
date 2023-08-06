@@ -2,7 +2,7 @@
 
 > [MERN Stack Crash Course Tutorial (The Net Ninja, youtube)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE)
 
-영상을 따라가면서 만들 예정이고, 새로 배운 점이나 정리하고 싶은 점들을 아래에 정리할 예정이다.
+영상을 따라가면서 만들거고, 새로 배운 점이나 정리하고 싶은 점들을 아래에 정리할 예정이다.
 
 ## #2
 
@@ -10,7 +10,7 @@
 $ node server.js
 ```
 
-이렇게 해줘도 되지만 새로고침 했을 때 적용이 안됨
+이렇게 해줘도 되지만 파일 내용을 바꿨을 때 적용이 안됨
 
 ```bash
 $ npm i -g nodemon
@@ -64,7 +64,7 @@ app.listen(process.env.PORT, () => {
 
 ## #3
 
-router, middleware나 reqest, response가 어떤 원리인지 같은 express 개념들은 따로 공부해야할듯
+router, middleware나 request, response가 어떤 원리인지 같은 express 개념들은 따로 공부해야할듯
 
 ## #4
 

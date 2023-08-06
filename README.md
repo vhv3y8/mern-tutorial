@@ -65,3 +65,21 @@ app.listen(process.env.PORT, () => {
 ## #3
 
 router, middleware나 reqest, response가 어떤 원리인지 같은 express 개념들은 따로 공부해야할듯
+
+## #4
+
+[https://www.mongodb.com/atlas/database](https://www.mongodb.com/atlas/database)
+
+mongoDB를 로컬에 설치해서 쓸 수도 있지만 온라인으로도 제공함 = mongoDB atlas
+
+```bash
+$ npm i mongoose
+```
+
+connection string 주는 페이지에서는 `mongodb` 설치하라고 하는데 여기서는 `mongoose`를 사용하는듯함
+
+이유도 설명했는데 잘 이해가 안되서 못알아들음
+
+아이디나 비번이 다르면 `npm run dev` 했을 때 에러나고, 
+
+맞으면 `"connected to db & listening on port 4000!"` 라고 뜨는 것까지 확인함 

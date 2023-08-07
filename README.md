@@ -80,6 +80,18 @@ connection string 주는 페이지에서는 `mongodb` 설치하라고 하는데 
 
 이유도 설명했는데 잘 이해가 안되서 못알아들음
 
-아이디나 비번이 다르면 `npm run dev` 했을 때 에러나고, 
+아이디나 비번이 다르면 `npm run dev` 했을 때 에러나고,
 
-맞으면 `"connected to db & listening on port 4000!"` 라고 뜨는 것까지 확인함 
+맞으면 `"connected to db & listening on port 4000!"` 라고 뜨는 것까지 확인함
+
+## #5
+
+mongodb만 있으면 schemaless, mongoose가 model이랑 schema를 만들게 해주는 것임
+
+workout document 저장할 때 schema를 enforce 해줄 것이다
+
+모델이 하는 건 스키마를 특정 모델에 적용시키는거.
+
+postman에서 POST 보내보고, 필드 없으면 없어서 안된다는 에러 봤음
+
+그리고 mongoDB 사이트 > Browse Collections로 들어가서 저장된 걸 봤다.
